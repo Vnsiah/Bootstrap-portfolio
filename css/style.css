@@ -12,3 +12,13 @@ header h1 {
    padding-right: 1%;
    
 }
+
+.hero-section .jumbotron{
+   background-image: url("../images/02-hero-bg.jpg");
+   background-size: cover;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   color: white;
+
+}
