@@ -1,17 +1,31 @@
 header {
    display: flex;
    justify-content: space-between;
+   background-color: black;
    
 
 
 }
 
 header h1 {
-   background-color: brown;
+   background-color: white;
    padding-left: 2%;
    padding-right: 1%;
+   padding: 5px 1% 5px 6%;
+   margin: 0;
+   font-size: 4vw;
+   line-height: 1;
    
 }
+.container{
+   display: grid;
+   grid-template-columns: 25% 75%;
+   gap: 50px;
+   width: 100%;
+   height: 250px;
+   grid-template-rows:1fr 1fr 1fr;
+ 
+ }
 
 .hero-section .jumbotron{
    background-image: url("../images/02-hero-bg.jpg");
@@ -22,3 +36,4 @@ header h1 {
    color: white;
 
 }
+
