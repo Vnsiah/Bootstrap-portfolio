@@ -1,3 +1,7 @@
+* {
+   box-sizing: border-box;
+}
+
 header {
    display: flex;
    justify-content: space-between;
@@ -27,6 +31,7 @@ header h1 {
  
  }
 
+ 
 .hero-section .jumbotron{
    background-image: url("../images/02-hero-bg.jpg");
    background-size: cover;
@@ -37,28 +42,10 @@ header h1 {
 
 }
 
-.flex-container{
-   justify-content: center;
- }
- 
- .flex-item {
-   min-height: 150px;
-   max-height: 150px;
-   flex-basis: calc(50% - 1em);
-   display: flex;
-   padding: 0 0 20px 0;
-   margin: 0.5em;
-   text-decoration: none;
-   font-size: 0.9rem;
- } 
-
- footer{
+/* .footer{
    position: relative;
    bottom: 0;
    min-width: 100vw;
    padding: 20px;
    display: block;
- 
- 
- }
- 
+} */
