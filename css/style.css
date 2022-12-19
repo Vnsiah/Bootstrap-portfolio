@@ -1,16 +1,16 @@
 * {
    box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-}
+   
+} 
 
 body {
    display: flex;
    flex-direction: column;
-  min-height: 100vh;
+   min-height: 100vh;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    line-height: 1.5;
    display: grid;
+   
  }
 
  header {
@@ -65,17 +65,20 @@ nav a {
    color: white;
 }
 
-/* .card{
-   min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 0.5em;
-  text-decoration: none;
-  font-size: 0.9rem;
-}  */
+.container-fluid {
+   flex-wrap: wrap;
+   border: 5px;
+   align-items: flex-end;
+   padding: 0 0 20px 0;
+   display: grid;
+   gap: 50px;  
+}
+
+.image {
+   height: 100%;
+
+
+}
 
 
 
